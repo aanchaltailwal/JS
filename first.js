@@ -13,3 +13,18 @@ const student = {
     cgpa : 8.48,
     isPass : true,
 }
+
+student.age = student.age +1; 
+console.log(student);
+console.log(student.age);
+
+
+
+const product = {
+    name : "Ball Pen",
+    rating : "4",
+    offer : 5,
+    price : 270,
+};
+console.log(product);
+typeof product
