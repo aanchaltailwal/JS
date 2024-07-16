@@ -45,7 +45,7 @@ console.log(color);
 //alert("hello")            //creates one time pop up
 
 //
-let n = prompt("Enter your Marks:");             //it can take input from user
+/*let n = prompt("Enter your Marks:");             //it can take input from user
 
 if(n >= 90 && n <= 100){
     console.log("A");
@@ -58,7 +58,12 @@ if(n >= 90 && n <= 100){
     console.log("B");
 }else{
     console.log("F");
+}*/
+  
+  
+let num = prompt("Enter the number");
+let sum = 0;
+for(i = 1; i <= num; i ++){
+    sum = sum + i;
 }
-  
-  
-    
+console.log(sum);
