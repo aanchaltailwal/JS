@@ -61,7 +61,7 @@ if(n >= 90 && n <= 100){
 }*/
   
   
-let num = prompt("Enter the number");
+/*let num = prompt("Enter the number");
 let sum = 0;
 for(i = 1; i <= num; i ++){
     sum = sum + i;
@@ -77,4 +77,12 @@ for(let i = 0; i <=n; i++){
 
     }
     
+}*/
+
+let gameNum= 5;
+let userNum = prompt("Enter the number:");
+
+while(userNum != gameNum){
+    userNum = prompt("oops you entered the wrong number. Try Again");
 }
+console.log("Congratulations , You guessed it right");
