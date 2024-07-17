@@ -79,10 +79,16 @@ for(let i = 0; i <=n; i++){
     
 }*/
 
-let gameNum= 5;
+/*let gameNum= 5;
 let userNum = prompt("Enter the number:");
 
 while(userNum != gameNum){
     userNum = prompt("oops you entered the wrong number. Try Again");
 }
-console.log("Congratulations , You guessed it right");
+console.log("Congratulations , You guessed it right");*/
+
+let username = prompt("Enter your username");
+let user = "@" + username + username.length;
+
+
+console.log(user);
