@@ -87,8 +87,16 @@ while(userNum != gameNum){
 }
 console.log("Congratulations , You guessed it right");*/
 
-let username = prompt("Enter your username");
+/*let username = prompt("Enter your username");
 let user = "@" + username + username.length;
 
 
-console.log(user);
+console.log(user);*/
+
+let students = [85, 97, 44,37, 76, 60];
+let sum = 0;
+for(let val of students){
+    sum = sum + val;
+}
+let avg = sum/students.length;
+console.log(avg);
