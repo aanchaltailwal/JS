@@ -93,10 +93,16 @@ let user = "@" + username + username.length;
 
 console.log(user);*/
 
-let students = [85, 97, 44,37, 76, 60];
+/*let students = [85, 97, 44,37, 76, 60];
 let sum = 0;
 for(let val of students){
     sum = sum + val;
 }
 let avg = sum/students.length;
-console.log(avg);
+console.log(avg);*/
+
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+companies.shift();
+companies.splice(1, 1, "Ola");
+companies.push("Amazon");
+console.log(companies); 
